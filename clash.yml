@@ -212,6 +212,7 @@ proxy-groups:
       - "🇺🇸 美国 CloudFlare节点 87"
       - "🇺🇸 美国 CloudFlare节点 91"
 global-domain-exclude:
+  - whatismyip.akamai.com
   - checkip.synology.com
   - checkipv6.synology.com
   - checkport.synology.com
