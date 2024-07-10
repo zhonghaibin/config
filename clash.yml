@@ -230,6 +230,11 @@ rules:
   - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
   - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
   - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+  - DOMAIN,checkip.synology.com,🎯 全球直连
+  - DOMAIN,checkipv6.synology.com,🎯 全球直连
+  - DOMAIN,checkport.synology.com,🎯 全球直连
+  - DOMAIN,ddns.synology.com,🎯 全球直连
+  - DOMAIN,account.synology.com,🎯 全球直连
   - DOMAIN,instant.arubanetworks.com,🎯 全球直连
   - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
   - DOMAIN,router.asus.com,🎯 全球直连
