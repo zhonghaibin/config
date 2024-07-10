@@ -211,6 +211,14 @@ proxy-groups:
       - "🇺🇸 美国 CloudFlare节点 51"
       - "🇺🇸 美国 CloudFlare节点 87"
       - "🇺🇸 美国 CloudFlare节点 91"
+global-domain-exclude:
+  - checkip.synology.com
+  - checkipv6.synology.com
+  - checkport.synology.com
+  - ddns.synology.com
+  - account.synology.com
+  - checkipv6.quickconnect.to
+  - global.quickconnect.to
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -230,7 +238,6 @@ rules:
   - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
   - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
   - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
-  - DOMAIN-SUFFIX,synology,🎯 全球直连
   - DOMAIN,instant.arubanetworks.com,🎯 全球直连
   - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
   - DOMAIN,router.asus.com,🎯 全球直连
