@@ -21,6 +21,15 @@ proxies:
  - {"name":"VMESS-美国\u003e韩国-NF解锁韩国自制剧-ChatGPT-TikTok-YouTube-172.67.144.19:80","type":"vmess","server":"172.67.144.19","port":80,"uuid":"6808508f-c51c-4888-8370-d49e78a7f64e","alterId":0,"cipher":"auto","network":"ws","servername":"kr1-amazonwebservices.tjycdn.online","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso","headers":{"HOST":"kr1-amazonwebservices.tjycdn.online"}}}
  - {"name":"SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-184.170.241.194:443","type":"ssr","server":"184.170.241.194","port":443,"password":"shadowsocks","cipher":"aes-128-cfb","protocol":"origin","obfs":"plain"}
  - {"name":"🇺🇸_US_美国_1","type":"trojan","server":"104.16.1.10","port":443,"udp":true,"password":"qj1Dz1CJmFQRhWr1SP80aA","sni":"cdn-21.gsmxreality.com","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"443trojan"}}
+ - {"name": "🇺🇸 美国 CloudFlare节点 81", server: 172.64.233.35, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}, udp: true}
+ - {"name": "🇺🇸 美国+华盛顿Cogent通信公司", server: 38.121.43.97, port: 2376, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, tfo: false, udp: true}
+ - {"name": "🇺🇸 美国 CloudFlare节点 24", server: 104.19.47.10, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048&amp;Telegram🇨🇳 @WangCai2", headers: {Host: oiictw.yydsii.com}}, udp: true}
+ - {"name": "🇺🇸 美国 CloudFlare节点 25", server: 104.19.46.22, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip13.freegradely.xyz}}, udp: true}
+ - {"name": "🇺🇸 美国 CloudFlare节点 40", server: 104.22.30.97, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2ac4e269-1576-4f41-8c0d-6242e3c5fd8c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 1270.0.1.dl3.烏克爾拯救聖誕老人電影.yркельпасаетcанту.фильм.urkel.烏克爾救援.wonkacapitano.buzz.}}, udp: true}
+ - {"name": "🇸🇬 新加坡 Amazon数据中心 2", server: sg123.156786.xyz, port: 708, client-fingerprint: chrome, type: trojan, password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d, sni: sg123.156786.xyz, skip-cert-verify: false, udp: true}
+ - {"name": "🇺🇸 美国 CloudFlare节点 51", server: 104.19.38.12, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}, udp: true}
+ - {"name": "🇺🇸 美国 CloudFlare节点 87", server: 104.16.53.5, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5ea4a644-07e9-4ad0-860d-50bd9b6e7f94, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: dl2.升級.3скалация.mальчикицапля.男孩與蒼鷺.wonkacapitano.buzz.}}, udp: true}
+ - {"name": "🇺🇸 美国 CloudFlare节点 91", server: 104.19.47.149, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048&amp;Telegram🇨🇳 @WangCai2", headers: {Host: oiictw.yydsii.com}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -33,6 +42,15 @@ proxy-groups:
       - "VMESS-美国\u003e韩国-NF解锁韩国自制剧-ChatGPT-TikTok-YouTube-172.67.144.19:80"
       - "SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-184.170.241.194:443"
       - "🇺🇸_US_美国_1"
+      - "🇺🇸 美国 CloudFlare节点 81"
+      - "🇺🇸 美国+华盛顿Cogent通信公司"
+      - "🇺🇸 美国 CloudFlare节点 24"
+      - "🇺🇸 美国 CloudFlare节点 25"
+      - "🇺🇸 美国 CloudFlare节点 40"
+      - "🇸🇬 新加坡 Amazon数据中心 2"
+      - "🇺🇸 美国 CloudFlare节点 51"
+      - "🇺🇸 美国 CloudFlare节点 87"
+      - "🇺🇸 美国 CloudFlare节点 91"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -45,6 +63,15 @@ proxy-groups:
       - "VMESS-美国\u003e韩国-NF解锁韩国自制剧-ChatGPT-TikTok-YouTube-172.67.144.19:80"
       - "SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-184.170.241.194:443"
       - "🇺🇸_US_美国_1"
+      - "🇺🇸 美国 CloudFlare节点 81"
+      - "🇺🇸 美国+华盛顿Cogent通信公司"
+      - "🇺🇸 美国 CloudFlare节点 24"
+      - "🇺🇸 美国 CloudFlare节点 25"
+      - "🇺🇸 美国 CloudFlare节点 40"
+      - "🇸🇬 新加坡 Amazon数据中心 2"
+      - "🇺🇸 美国 CloudFlare节点 51"
+      - "🇺🇸 美国 CloudFlare节点 87"
+      - "🇺🇸 美国 CloudFlare节点 91"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -57,6 +84,15 @@ proxy-groups:
       - "VMESS-美国\u003e韩国-NF解锁韩国自制剧-ChatGPT-TikTok-YouTube-172.67.144.19:80"
       - "SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-184.170.241.194:443"
       - "🇺🇸_US_美国_1"
+      - "🇺🇸 美国 CloudFlare节点 81"
+      - "🇺🇸 美国+华盛顿Cogent通信公司"
+      - "🇺🇸 美国 CloudFlare节点 24"
+      - "🇺🇸 美国 CloudFlare节点 25"
+      - "🇺🇸 美国 CloudFlare节点 40"
+      - "🇸🇬 新加坡 Amazon数据中心 2"
+      - "🇺🇸 美国 CloudFlare节点 51"
+      - "🇺🇸 美国 CloudFlare节点 87"
+      - "🇺🇸 美国 CloudFlare节点 91"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -68,6 +104,15 @@ proxy-groups:
       - "VMESS-美国\u003e韩国-NF解锁韩国自制剧-ChatGPT-TikTok-YouTube-172.67.144.19:80"
       - "SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-184.170.241.194:443"
       - "🇺🇸_US_美国_1"
+      - "🇺🇸 美国 CloudFlare节点 81"
+      - "🇺🇸 美国+华盛顿Cogent通信公司"
+      - "🇺🇸 美国 CloudFlare节点 24"
+      - "🇺🇸 美国 CloudFlare节点 25"
+      - "🇺🇸 美国 CloudFlare节点 40"
+      - "🇸🇬 新加坡 Amazon数据中心 2"
+      - "🇺🇸 美国 CloudFlare节点 51"
+      - "🇺🇸 美国 CloudFlare节点 87"
+      - "🇺🇸 美国 CloudFlare节点 91"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -79,6 +124,15 @@ proxy-groups:
       - "VMESS-美国\u003e韩国-NF解锁韩国自制剧-ChatGPT-TikTok-YouTube-172.67.144.19:80"
       - "SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-184.170.241.194:443"
       - "🇺🇸_US_美国_1"
+      - "🇺🇸 美国 CloudFlare节点 81"
+      - "🇺🇸 美国+华盛顿Cogent通信公司"
+      - "🇺🇸 美国 CloudFlare节点 24"
+      - "🇺🇸 美国 CloudFlare节点 25"
+      - "🇺🇸 美国 CloudFlare节点 40"
+      - "🇸🇬 新加坡 Amazon数据中心 2"
+      - "🇺🇸 美国 CloudFlare节点 51"
+      - "🇺🇸 美国 CloudFlare节点 87"
+      - "🇺🇸 美国 CloudFlare节点 91"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -90,6 +144,15 @@ proxy-groups:
       - "VMESS-美国\u003e韩国-NF解锁韩国自制剧-ChatGPT-TikTok-YouTube-172.67.144.19:80"
       - "SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-184.170.241.194:443"
       - "🇺🇸_US_美国_1"
+      - "🇺🇸 美国 CloudFlare节点 81"
+      - "🇺🇸 美国+华盛顿Cogent通信公司"
+      - "🇺🇸 美国 CloudFlare节点 24"
+      - "🇺🇸 美国 CloudFlare节点 25"
+      - "🇺🇸 美国 CloudFlare节点 40"
+      - "🇸🇬 新加坡 Amazon数据中心 2"
+      - "🇺🇸 美国 CloudFlare节点 51"
+      - "🇺🇸 美国 CloudFlare节点 87"
+      - "🇺🇸 美国 CloudFlare节点 91"
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -102,6 +165,15 @@ proxy-groups:
       - "VMESS-美国\u003e韩国-NF解锁韩国自制剧-ChatGPT-TikTok-YouTube-172.67.144.19:80"
       - "SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-184.170.241.194:443"
       - "🇺🇸_US_美国_1"
+      - "🇺🇸 美国 CloudFlare节点 81"
+      - "🇺🇸 美国+华盛顿Cogent通信公司"
+      - "🇺🇸 美国 CloudFlare节点 24"
+      - "🇺🇸 美国 CloudFlare节点 25"
+      - "🇺🇸 美国 CloudFlare节点 40"
+      - "🇸🇬 新加坡 Amazon数据中心 2"
+      - "🇺🇸 美国 CloudFlare节点 51"
+      - "🇺🇸 美国 CloudFlare节点 87"
+      - "🇺🇸 美国 CloudFlare节点 91"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,6 +202,15 @@ proxy-groups:
       - "VMESS-美国\u003e韩国-NF解锁韩国自制剧-ChatGPT-TikTok-YouTube-172.67.144.19:80"
       - "SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-184.170.241.194:443"
       - "🇺🇸_US_美国_1"
+      - "🇺🇸 美国 CloudFlare节点 81"
+      - "🇺🇸 美国+华盛顿Cogent通信公司"
+      - "🇺🇸 美国 CloudFlare节点 24"
+      - "🇺🇸 美国 CloudFlare节点 25"
+      - "🇺🇸 美国 CloudFlare节点 40"
+      - "🇸🇬 新加坡 Amazon数据中心 2"
+      - "🇺🇸 美国 CloudFlare节点 51"
+      - "🇺🇸 美国 CloudFlare节点 87"
+      - "🇺🇸 美国 CloudFlare节点 91"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
